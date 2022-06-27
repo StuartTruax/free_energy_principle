@@ -11,6 +11,19 @@ Stuart Truax, 2022-06
 
 The simulation is <a href="https://github.com/StuartTruax/free_energy_principle/blob/main/FEP_Simulation.ipynb">here</a>.
 
+Some results from the primordial soup simulation:
+
+##### Displacement of the subsystems (macromolecules) in the XY plane
+
+<center><img src="images/primordial_soup_XY_system_positions.gif"></center>
+
+
+##### Temporal plots of the displacement variables
+
+<center><img src="images/displacement_variables.png"></center>
+
+
+
 
 
 # Free Energy Principle
