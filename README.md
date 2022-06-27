@@ -9,7 +9,7 @@ Stuart Truax, 2022-06
  1. An explanation and informal derivation on the FEP, based on [1].
  2. A dynamical simulation of a coupled mechanical-electrochemical system (i.e. the "primordial soup") described in [1].
 
-The simulation is <a href="">here</a>.
+The simulation is <a href="https://github.com/StuartTruax/free_energy_principle/blob/main/FEP_Simulation.ipynb">here</a>.
 
 
 
