@@ -543,13 +543,20 @@ Some informal and general results of the FEP follow:
 For an ergodic dynamical system $m$ possessing a Markov blanket on
 internal states $\Lambda$:
 
+
+-   The dynamics of the system causes the internal states to perform Bayesian
+    inference on their surroundings [8]. This takes the form of encoding beliefs
+    about the external states of the system. 
+
 -   The entropy over $p(\lambda)$ (i.e. complexity of the internal
     states) will be maximized, but limited by the action of the flow
-    $f$. That is, an agent's internal states will not become
+    $f$. That is, an agent's internal states (and therefore beliefs) will not become
     disproportionately complex relative to its surroundings.
 
--   The surprise of an agents is limited by distance between an agent's
+-   The surprise of an agent is limited by distance between an agent's
     beliefs $q(\psi|\lambda)$ and \"reality\" $p(\psi)$.
+
+
 
 ### Friston's Conclusions from the FEP about the Properties of Biological Systems
 
@@ -591,3 +598,7 @@ Chapters 18 and 19
 
 [7] *Principle of maximum entropy*, Wikipedia\
 `https://en.wikipedia.org/wiki/Principle_of_maximum_entropy`
+
+
+[8] M. Aguilera, B. Millidge, A. Tschantz, C.L. Buckley, "How particular is the physics of the free energy principle?,"
+_Physics of Life Reviews__, vol. 10, pp.24-50, 2022
