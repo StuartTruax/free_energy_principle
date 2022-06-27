@@ -252,7 +252,7 @@ self organization\" [1], which is no small claim.
 
 Let the dynamics of the system be generally defined as follows:
 
-$$\dot{x} = \underbrace{f(x)}_\text{a flow}   +  \underbrace{\omega}_\text{random fluctuation} \tag{1}$$
+$$\dot{x} = \underbrace{f(x)}_\text{a flow}   +  \underbrace{\omega}_\text{random fluctuation} $$ $\tag{1}$
 
 wherein the flow can be decomposed into the following:
 
