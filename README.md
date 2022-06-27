@@ -285,7 +285,7 @@ decompose it into conservative (i.e. curl-free) and solenoidal (i.e.
 divergence-free) fields:
 
 $$f = - (\Gamma + R) \cdot \nabla G
-\tag{4} \label{eq:helmholtz}$$
+\tag{4} \label{eq:helmholtz}$$   (4)
 
 where
 
