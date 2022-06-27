@@ -220,20 +220,23 @@ of the states and their dependencies, the boundary of the Markov
 blanket, and therefore our definition of \"agent\", would change.
 
 The coupling between the states of this system can be illustrated in the
-causality graph of Figure [1](#fig:fep_causality){reference-type="ref"
-reference="fig:fep_causality"}. The blue oval in
-Figure [1](#fig:fep_causality){reference-type="ref"
-reference="fig:fep_causality"} denotes the Markov blanket with respect
+causality graph of Figure [1](#fig:markov_blanket). The blue oval in
+Figure [1](#fig:markov_blanket) denotes the Markov blanket with respect
 to the internal states (i.e. the \"agent\").
 
 
 
-__Figure 1.__ The casuality graph for the FEP. The state variables and their
+![__Figure 1.__ _The casuality graph for the FEP. The state variables and their
 dynamics are represented by the nodes. The couplings between nodes are
 represented by the arrows. The Markov blanket of the internal state
 $\lambda$ is represented by the blue oval (i.e. it encompasses the
-sensory, active, and internal states).
+sensory, active, and internal states)\label{markov_blanket}](images/causality_graph_w_markov_blankets.png)
 
+__Figure 1.__ _The casuality graph for the FEP. The state variables and their
+dynamics are represented by the nodes. The couplings between nodes are
+represented by the arrows. The Markov blanket of the internal state
+$\lambda$ is represented by the blue oval (i.e. it encompasses the
+sensory, active, and internal states)._
 
 The dynamics of the interaction between these states will be described
 in next section.
@@ -260,7 +263,7 @@ f_{a}(s,a,\lambda) \\
 f_{\lambda}(s,a,\lambda)
 \end{bmatrix}  \tag{2} \label{eq:dynamics_vector}$$
 
-with each function $f_{\_}$ describing the dynamics for the respective
+with each function $f$ describing the dynamics for the respective
 state variable.
 
 As stated previously, the system is ergodic, which implies that it will
@@ -427,8 +430,9 @@ maximizing the entropy of the variational density $q(\psi | \lambda)$
 The proof of
 (14) relies on breaking down the integral using
 Bayes' Rule to obtain:
+
 $$F(s,a,\lambda) = -\text{log}(p(\psi,s,a,\lambda | m) + D_{KL}[q(\psi | \lambda) || p(\psi | s,a,\lambda)]
-\tag{15} \label{eq:fe_expansion}$$
+\tag{15}$$
 
 where $D_{KL}$ is the Kullback--Leibler divergence.
 (15) can then be inserted into
