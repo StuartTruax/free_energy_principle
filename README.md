@@ -158,7 +158,7 @@ To add more detail to this statement, some informal definitions of
     some finite time T.
 
     Call $p(\mathbf{x})$ the **ergodic density** of state $\mathbf{x}$,
-    which is probability that the ergodic system is in state
+    which is the probability that the ergodic system is in state
     $\mathbf{x}$. An ergodic system has the following property:
 
     $$ p(\mathbf{x}) = \text{average proportion of time spent in state } \mathbf{x}$$
@@ -185,7 +185,7 @@ ergodicity and the existence of a Markov blanket are the necessary
 conditions for the FEP to attain, one must add some further structure to
 the system to illustrate the full results of the FEP. In
 [1], this is referred to as a \"self-organizing
-architecture\". The particular definition of these states in this
+architecture\". The particular definition of the states in this
 architecture, and the coupling between them, is essential in producing
 the results of the FEP.
 
